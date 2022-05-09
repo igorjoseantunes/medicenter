@@ -135,7 +135,7 @@ ul {
     padding: 5px;
     text-decoration: none;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .hours-option {
@@ -153,3 +153,39 @@ ul {
     flex: 1;
     border-bottom: 1px solid #39aae1;
 }
+
+#geral {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+.news-area {
+    flex: 2;
+}
+
+.departments {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget-title-text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget-title-bar {
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+
