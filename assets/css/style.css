@@ -331,9 +331,60 @@ footer {
     flex: 1;
 }
 
+.option-desc-footer {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.area1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.ba1 {
+    flex: 1;
+    font-size: 12px;
+    color: #cccccc;
+}
+.ba2 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.ba2 {
+    color: #cccccc;
+    font-size: 12px;
+    display: flex;
+    flex: 1;
+    margin-top: 0;
+}
+
+.ba2-1, .ba2-2 {
+    flex: 1;
+}
+
+.widget-body-list {
+    color: #cccccc;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.list-1, .list-2, .list-3 {
+    flex: 1;
+    margin-top: 8px;
+}
+
+.widget-body-list p {
+    font-size: 10px;
+    color: #36a9e1;
+}
+
 .f-area .widget-title-text {
     color: #ffffff;
 }
+
 
 .footer-copy {
     margin-top: 30px;
