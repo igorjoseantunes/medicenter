@@ -246,11 +246,21 @@ article .news-resume {
     flex-direction: row;
 }
 
+a .widget-body-blocks {
+    text-decoration: none;
+}
+
 .widget-body-blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 15px;
     min-width: 125px;
     min-height: 125px;
     background-color: blue;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .widget-appoint-text {
@@ -274,4 +284,71 @@ article .news-resume {
     align-items: center;
     flex: 1;
     border-bottom: 1px solid #000000;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.fm-1, .fm-2, .fm-3 {
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.fm-1 {
+    background-color: #39aae1;
+}
+
+.fm-2 {
+    background-color: #0079c7;
+}
+
+.fm-3 {
+    background-color: #2b4c99;
+}
+
+.footer-area {
+    background-color: #1e1e1e;
+    display: flex;
+    color: white;
+    flex: 1;
+}
+
+.f-area {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+}
+
+.f-area .widget-title-text {
+    color: #ffffff;
+}
+
+.footer-copy {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    border-top: 1px solid #2c2c2c;
+}
+
+.footer-copy p {
+    color: #5c5c5c;
+    font-size: 12px;
+}
+
+.footer-copy a {
+    color: white;
+    text-decoration: none;
 }
