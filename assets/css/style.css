@@ -409,7 +409,6 @@ footer {
 }
 
 
-
 @media (max-width: 600px) {
 
     .banner-text {
@@ -439,6 +438,10 @@ footer {
         padding: 20px;
     }
 
+    .news-area {
+        margin-top: 20px;
+    }
+
     .container {
         flex-direction: column;
     }
@@ -461,6 +464,10 @@ footer {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
     }
 
     header {
@@ -487,4 +494,3 @@ footer {
         background-color: #36aae1;
     }
 }
-
